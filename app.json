@@ -1,29 +1,46 @@
 {
   "expo": {
     "name": "BrandPeekApp",
-    "slug": "BrandPeekApp",
+    "slug": "brandpeekapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/Nurdd.jpg",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/Nurdd.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0f172a"
     },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.brandpeek",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/Nurdd.jpg",
+        "backgroundColor": "#0f172a"
       },
+      "package": "com.yourcompany.brandpeek",
+      "versionCode": 1,
+      "permissions": [],
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Nurdd.jpg"
+    },
+    "extra": {
+  "eas": {
+    "projectId": "0ba1b3a4-85d5-4e86-a2dd-cfccb1016c4d",
+    "cli": {
+      "appVersionSource": "app.json"
     }
+  }
+}
+
   }
 }
